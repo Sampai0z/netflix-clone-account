@@ -3,4 +3,5 @@ body{
   padding: 0; /* Remove o preenchimento */
   border: none; /* Remove as bordas */
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }

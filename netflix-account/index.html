@@ -14,9 +14,11 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
 			rel="stylesheet"
 		/>
+		<script src="./index.js" defer></script>
 		<link rel="stylesheet" href="style.css" />
 		<title>Netflix</title>
 	</head>
+
 	<body>
 		<img src="assets/netflix-logos-idcIWizlPG.png" alt="" class="image" />
 		<div class="card">
@@ -42,14 +44,51 @@
 				</div>
 			</div>
 			<div class="part">
-				<p>É o seu primeiro acesso à Netflix? Registe-se agora.</p>
+				<p>
+					É o seu primeiro acesso à Netflix?
+					<a href="" style="color: white">Registe-se agora.</a>
+				</p>
+			</div>
+			<div class="part-2">
+				<p>
+					Esta página está protegida pelo serviço Google reCAPTCHA para garantir
+					que não se trata de um robô
+					<span class="show-more" id="show-more">Mais informações</span>
+				</p>
+				<p class="part-click hidden" id="show-more-2">
+					As informações recolhidas via Google reCAPTCHA estão sujeitas à
+					<a href="https://policies.google.com/privacy"
+						>Política de Privacidade</a
+					>
+					e aos
+					<a href="https://policies.google.com/terms">Termos de Serviço</a>, da
+					Google, e são utilizadas para disponibilizar, manter e melhorar o
+					serviço reCAPTCHA, bem como para efeitos de segurança gerais (não
+					serão utilizadas pela Google para publicidade personalizada).
+				</p>
 			</div>
 		</div>
-
-		<script>
-			function redirect() {
-				window.location.href = "http://localhost:5173/";
-			}
-		</script>
+		<footer class="footer">
+			<div class="footer-content">
+				<div class="footer-links">
+					<h4><a href="#">Perguntas frequentes</a></h4>
+				</div>
+				<!-- <div class="footer-links">
+					<li><a href="#">Centro de ajuda</a></li>
+					<li><a href="#">Conta</a></li>
+					<li><a href="#">Formas de assistir</a></li>
+					<li><a href="#">Informações corporativas</a></li>
+				</div>
+				<div class="footer-links">
+					<li><a href="#">Originais Netflix</a></li>
+					<li><a href="#">Termos de uso</a></li>
+				</div> -->
+				<select class="language-select">
+					<option value="pt">Português</option>
+					<option value="en">English</option>
+					<option value="es">Español</option>
+				</select>
+			</div>
+		</footer>
 	</body>
 </html>
