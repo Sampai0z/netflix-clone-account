@@ -1,7 +1,0 @@
-body{
-  margin: 0; /* Remove as margens */
-  padding: 0; /* Remove o preenchimento */
-  border: none; /* Remove as bordas */
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
